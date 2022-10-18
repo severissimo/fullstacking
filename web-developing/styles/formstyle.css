@@ -2,6 +2,7 @@ h1 {
     color: #f9b041;
     font-family: "Poppins","Trebuchet MS",Helvetica,sans-serif;
     text-align: center;
+    text-shadow: 4px 4px 2px #000;
 }
 
 p {
@@ -20,5 +21,14 @@ button {
 .wrapper {
     text-align: center;
 }
+
+::placeholder {
+    font-family: "Poppins","Trebuchet MS",Helvetica,sans-serif;
+  }
+
+  textarea {
+    font-family: "Poppins","Trebuchet MS",Helvetica,sans-serif;
+    font-size: small;
+  }
 
 
