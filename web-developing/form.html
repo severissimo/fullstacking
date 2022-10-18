@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="/cadastro">
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+        </p>
+        <p>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="E-mail">
+        </p>
+        <p>
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" placeholder="Senha">
+        </p>
+        <p>
+            <label for="passwordconfirm">Confirme a Senha:</label>
+            <input type="password" name="passwordconfirm" id="passwordconfirm" placeholder="Confirme sua Senha">
+        </p>
+        <p>
+            <label for="cidade">Qual sua Cidade</label>
+            <select>
+                <option value=" ">-- Escolha sua Cidade --</option>
+                <option value="Cidade1">Cidade 1</option>
+                <option value="Cidade2">Cidade 2</option>
+                <option value="Cidade3">Cidade 3</option>
+            </select>
+        </p>
+        <p>
+            <label for="text">Comentário:</label>
+            <br>
+            <textarea name="comment" id="text" cols="50" rows="15">Escreva aqui...</textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">I agree to everything...</label>
+        </p>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
